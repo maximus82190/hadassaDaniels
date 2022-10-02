@@ -116,6 +116,11 @@ h1 {
   border-bottom: solid;
   text-align: center;
   font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.mc-field-group {
+  line-height: 200%;
 }
 
 .indicates-required {
@@ -124,6 +129,21 @@ h1 {
 
 .contactForm {
   width: 100%;
-  margin-top: 5rem;
+  margin: 5rem 0;
+}
+
+.inputs {
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+  height: 50vh;
+  width: 50%;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.optionalParent {
+  border: solid;
 }
