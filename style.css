@@ -107,7 +107,7 @@ h1 {
   gap: 10px;
   font: 24px "Almendra SC", Helvetica, Arial, sans-serif;
   color: rgb(0, 0, 0);
-  width: 75%;
+  width: 60%;
   border: solid;
 }
 
@@ -130,6 +130,7 @@ h1 {
 .contactForm {
   width: 100%;
   margin: 5rem 0;
+  display: flex;
 }
 
 .inputs {
