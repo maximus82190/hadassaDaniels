@@ -108,19 +108,28 @@ h1 {
   font: 24px "Almendra SC", Helvetica, Arial, sans-serif;
   color: rgb(0, 0, 0);
   width: 60%;
-  border: solid;
 }
 
-#mc_embed_signup::before {
-  content: url("Color logo - no background copy.png");
-  margin-top: auto;
-  margin-bottom: auto;
+@media (min-width: 900px) {
+  #mc_embed_signup {
+    border: solid;
+  }
 }
 
-#mc_embed_signup::after {
-  content: url("Color logo - no background copy.png");
-  margin-top: auto;
-  margin-bottom: auto;
+@media (min-width: 1440px) {
+  #mc_embed_signup::before {
+    content: url("Color logo - no background copy.png");
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+
+@media (min-width: 1440px) {
+  #mc_embed_signup::after {
+    content: url("Color logo - no background copy.png");
+    margin-top: auto;
+    margin-bottom: auto;
+  }
 }
 
 .letsTalk {
@@ -148,7 +157,6 @@ h1 {
 .inputs {
   margin-left: auto;
   margin-right: auto;
-  border: solid;
   height: 50vh;
   width: 100%;
   display: flex;
@@ -158,6 +166,17 @@ h1 {
   font-size: 1rem;
 }
 
+@media (max-width: 1200px) {
+  .inputs {
+    gap: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .inputs {
+    border: solid;
+  }
+}
 .optionalParent {
   display: flex;
   align-items: center;
