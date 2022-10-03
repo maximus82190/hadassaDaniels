@@ -76,7 +76,7 @@ h1 {
 
 @media (max-width: 600px) {
   .videos {
-    height: 60vh;
+    height: 300vh;
   }
 }
 
@@ -90,6 +90,14 @@ h1 {
   right: 0;
   width: 25%;
   height: 25%;
+}
+
+@media (max-width: 600px) {
+  .videoLink {
+    flex-direction: column;
+    width: 100%;
+    height: 25vh;
+  }
 }
 
 .photoBio {
