@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Almendra SC");
+@import url("https://fonts.googleapis.com/css?family=Alegreya SC");
 /* 451919
 000000
 796363
@@ -105,12 +106,22 @@ h1 {
   justify-content: right;
 }
 
+.bio {
+  font-size: 1.9rem;
+  font-family: "Alegreya SC";
+}
+
 .headshot {
   width: 50%;
   margin-left: auto;
   opacity: 0.6;
 }
 
+@media (max-width: 600px) {
+  .photoBio {
+    flex-direction: column;
+  }
+}
 #mc_embed_signup {
   margin-left: auto;
   margin-right: auto;
