@@ -118,8 +118,16 @@ h1 {
 }
 
 @media (max-width: 600px) {
+  .headshot {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
   .photoBio {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 #mc_embed_signup {
