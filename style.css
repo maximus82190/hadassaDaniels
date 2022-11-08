@@ -104,6 +104,7 @@ h1 {
 .photoBio {
   display: flex;
   justify-content: right;
+  align-items: flex-start;
 }
 
 .bio {
@@ -119,6 +120,7 @@ h1 {
 
 .headshot {
   width: 50%;
+  object-fit: contain;
   margin-left: auto;
   opacity: 0.6;
 }
@@ -290,4 +292,22 @@ h1 {
 
 #mobileVideo {
   display: none;
+}
+
+#deskTop {
+  margin: 5rem 2.5rem;
+  /* margin-left: 2.5rem;
+  margin-right: 2.5rem; */
+  height: 150vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2.5rem;
+  border-bottom: solid;
+  position: relative;
+  overflow: auto;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  right: 2.5rem;
 }
