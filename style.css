@@ -113,6 +113,7 @@ h1 {
 
 .headshot {
   width: 50%;
+  object-fit: contain;
   margin-left: auto;
   opacity: 0.6;
 }
